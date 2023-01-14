@@ -1,0 +1,30 @@
+table {
+  margin: 0 auto;
+  box-shadow: 0 0 10px #b1b7b7ed;
+  width: 500px;
+}
+thead tr {
+  padding: 20px;
+  background-color: #389d9d;
+}
+table th {
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+table td {
+  padding: 10px;
+  font-size: 15px;
+  color: #8d8286;
+}
+
+table tr {
+  text-transform: capitalize;
+  text-align: center;
+  border-bottom: solid 1px #c6cccce6;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
